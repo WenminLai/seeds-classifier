@@ -13,3 +13,4 @@ https://drive.google.com/file/d/1ozMH56gKX2sJjd-aq4vcq4qrXULtoSwn/view?usp=shari
 7. On your nano, navigate to the jetson-inference/python/training/classification directory.
 8. Set NET=models/seeds
 9. To classify an image, run "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$NET/labels.txt $IMAGE $OUTPUT", where $NET is the folder resnet18.onnx and labels.txt are stored, $IMAGE is the image file to classify, and $OUTPUT is the name of the file to output to.
+![0](https://github.com/user-attachments/assets/39a18034-0fed-4403-b47d-e17772dd5c3f)
